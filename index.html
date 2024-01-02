@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій Інтернет-Магазин</title>
+  <!-- Підключення Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="mt-5">Ласкаво просимо в наш інтернет-магазин Відеокарт</h1>
+
+    <!-- Продукти -->
+    <div class="row">
+      <!-- Приклад товару 1 -->
+      <div class="col-md-4">
+        <div class="product">
+          <img src="./photo/product1.jpeg" class="card-img-top" alt="Товар 1">
+          <h2>Товар 1</h2>
+          <p>Опис товару 1...</p>
+          <p>Ціна: $50.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <!-- Приклад товару 2 -->
+      <div class="col-md-4">
+        <div class="product">
+          <img src="./photo/product2.jpg" class="card-img-top" alt="Товар 2">
+          <h2>Товар 2</h2>
+          <p>Опис товару 2...</p>
+          <p>Ціна: $75.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product3">
+          <img src="./photo/product3.jpeg" class="card-img-top" alt="Товар 3">
+          <h2>Товар 3</h2>
+          <p>Опис товару 3...</p>
+          <p>Ціна: $100.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product4">
+          <img src="./photo/product4.jpeg" class="card-img-top" alt="Товар 4">
+          <h2>Товар 4</h2>
+          <p>Опис товару 4...</p>
+          <p>Ціна: $125.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product5">
+          <img src="./photo/product5.jpeg" class="card-img-top" alt="Товар 5">
+          <h2>Товар 5</h2>
+          <p>Опис товару 5...</p>
+          <p>Ціна: $150.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product6">
+          <img src="./photo/product6.png" class="card-img-top" alt="Товар 6">
+          <h2>Товар 6</h2>
+          <p>Опис товару 6...</p>
+          <p>Ціна: $175.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product7">
+          <img src="./photo/product7.jpeg" class="card-img-top" alt="Товар 7">
+          <h2>Товар 7</h2>
+          <p>Опис товару 7...</p>
+          <p>Ціна: $200.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product8">
+          <img src="./photo/product8.jpeg" class="card-img-top" alt="Товар 8">
+          <h2>Товар 8</h2>
+          <p>Опис товару 8...</p>
+          <p>Ціна: $225.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product9">
+          <img src="./photo/product9.jpeg" class="card-img-top" alt="Товар 9">
+          <h2>Товар 9</h2>
+          <p>Опис товару 9...</p>
+          <p>Ціна: $250.00</p>
+          <button class="btn btn-primary">Додати до кошика</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <h1>Ваш кошик</h1>
+
+  <div id="cart">
+    <!-- Сюди буде вставлений вміст кошика -->
+  </div>
+
+  <h2>Товари</h2>
+
+  <ul>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 50)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 2</span>
+      <button onclick="додатиДоКошика('Товар 2', 75)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 100)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 125)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 150)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 175)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 200)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 225)">Додати до кошика</button>
+    </li>
+    <li>
+      <span>Назва товару: Товар 1</span>
+      <button onclick="додатиДоКошика('Товар 1', 250)">Додати до кошика</button>
+    </li>
+    <!-- Додайте інші товари за аналогією -->
+  </ul>
+
+  <script>
+    let кошик = [];
+
+    function додатиДоКошика(назва, ціна) {
+      кошик.push({ назва, ціна });
+      поновитиКошик();
+    }
+
+    function поновитиКошик() {
+      const кошикЕлемент = document.getElementById('cart');
+      кошикЕлемент.innerHTML = '<h3>Зміст кошика</h3>';
+
+      if (кошик.length === 0) {
+        кошикЕлемент.innerHTML += '<p>Кошик порожній</p>';
+      } else {
+        кошик.forEach(item => {
+          кошикЕлемент.innerHTML += `<p>${item.назва}: ${item.ціна} $</p>`;
+        });
+      }
+    }
+  </script>
+
+</body>
+
+
+<!-- Підключення Bootstrap та Popper.js JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
